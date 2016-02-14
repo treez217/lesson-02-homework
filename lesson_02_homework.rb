@@ -19,14 +19,17 @@ end
 
 # Fix Broken Code
 
-def area_of_triangle(b, h)
-  puts b x height / 2
+#spelled out base/height vs only having b,h
+def area_of_triangle(base, height)
+  #sign for multiply is *, not x. changed b to base
+  puts base * height / 2
 end
 
 base = 7
 height = 6
 
-puts area_of_triangle(height, height)
+#height was listed 2x.
+puts area_of_triangle(base, height)
 
 # Coding
 
