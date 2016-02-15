@@ -50,6 +50,7 @@ puts area_of_triangle(base, height)
 class Reservation
   # add your code here
   def add_party(party_name)
+    
   end
 
   def list
@@ -57,6 +58,6 @@ class Reservation
 
   def seat
   end
-  
+
 
 end
