@@ -47,13 +47,14 @@ puts area_of_triangle(base, height)
 
 # Coding
 
-class Reservation
+class Waitlist    
   # add your code here
   def add_party(party_name)
     
   end
 
   def list
+    list = ["Daniel", "Derrick", "Jack", "Jill"]
   end
 
   def seat
