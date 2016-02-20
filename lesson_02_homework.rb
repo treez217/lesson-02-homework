@@ -35,7 +35,7 @@ puts fizz_buzz_to(5)
 #spelled out base/height vs only having b,h
 def area_of_triangle(base, height)
   #sign for multiply is *, not x. changed b to base
-  puts base * height / 2
+  base * height / 2
 end
 
 base = 7
