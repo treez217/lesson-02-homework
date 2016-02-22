@@ -47,18 +47,31 @@ puts area_of_triangle(base, height)
 
 # Coding
 
-class Waitlist    
-  # add your code here
-  def add_party(party_name)
-    
+class Waitlist
+
+  attr_accessor: list
+
+  def initialize
+    @list = ["Bart", "Itchy", "Krusty", "Scratchy"]
   end
 
-  def list
-    list = ["Daniel", "Derrick", "Jack", "Jill"]
+  def add_name_to_list(list_name)
+    list.push(list_name)
+    puts "I added #{} to the list"
   end
 
-  def seat
+  def current_list_of_names
+    print @list
   end
 
+  def remaining_list_of_names
+    list.shift(list_name)
+  end
+
+Waitlist = Waitlist.new
+
+puts waitlist.add_name_to_list("Seymour Skinner")
+puts waitlist.current_list_of_names
+puts waitlist.remaining_list_of_names
 
 end
