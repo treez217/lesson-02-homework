@@ -48,6 +48,7 @@ puts area_of_triangle(base, height)
 # Coding
 
 class Waitlist
+<<<<<<< HEAD
 
   attr_accessor: list
 
@@ -75,3 +76,7 @@ puts waitlist.current_list_of_names
 puts waitlist.remaining_list_of_names
 
 end
+=======
+  # add your code here
+end
+>>>>>>> BE101KG/master
